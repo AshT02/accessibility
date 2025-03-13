@@ -23,13 +23,26 @@ $crypto-checker-yt-theme: mat.define-dark-theme(( color: ( primary: $crypto-chec
 
 /* You can add global styles to this file, and also import other style files */
 
-html,
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
     height: 100%;
-}
-
-body {
+    font-size: 100%;
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
     background: #212121;
-}
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(182, 246, 248);
+    text-decoration: underline;
+  }
